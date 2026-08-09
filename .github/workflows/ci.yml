@@ -15,3 +15,5 @@ jobs:
       - if: github.event_name == 'push'
         uses: Anparasan3/gh-actions/dependabot@v0.1.1
       - uses: Anparasan3/gh-actions@v0.1.1
+        with:
+            enable-test: true
