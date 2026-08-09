@@ -1,0 +1,17 @@
+name: CI
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # needed only for the dependabot bootstrap step below
+    steps:
+      - uses: actions/checkout@v7
+      - if: github.event_name == 'push'
+        uses: Anparasan3/gh-actions/dependabot@v0.1.0
+      - uses: Anparasan3/gh-actions@v0.1.0
