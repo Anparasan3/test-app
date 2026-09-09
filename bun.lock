@@ -97,7 +97,7 @@
 
     "@react-router/express": ["@react-router/express@8.3.0", "", { "dependencies": { "@react-router/node": "8.3.0" }, "peerDependencies": { "express": "^4.22.2 || ^5", "react-router": "8.3.0", "typescript": "^5.1.0 || ^6.0.0 || ^7.0.0" }, "optionalPeers": ["typescript"] }, "sha512-ejgJTbGO0CzwjgU4IMM3JTJvqtisc+qF6l0iMzwx+NnrsYwtFy0V1BrajM9499+YQ/420LbuRTtZqDfpUIkwHw=="],
 
-    "@react-router/node": ["@react-router/node@8.3.0", "", { "dependencies": { "@remix-run/node-fetch-server": "^0.13.3" }, "peerDependencies": { "react-router": "8.3.0", "typescript": "^5.1.0 || ^6.0.0 || ^7.0.0" }, "optionalPeers": ["typescript"] }, "sha512-qw5ibcolE1OcwngiEw6t7LR11Hi6yWEDvj6cfvaYROX+w18JPxc0YSmsdn3Wlc9TOX+Qo8FVcxbXRdc9vojn2w=="],
+    "@react-router/node": ["@react-router/node@8.3.1", "", { "dependencies": { "@remix-run/node-fetch-server": "^0.14.1" }, "peerDependencies": { "react-router": "8.3.1", "typescript": "^5.1.0 || ^6.0.0 || ^7.0.0" }, "optionalPeers": ["typescript"] }, "sha512-JQI2vPd0twfHXxRxD1QWxKkCfu5I7bxojgEZFL97EvbJLm1B6p4qeqvGc9hl9g/3ZYbieczQY6ElM3zZjiG4sA=="],
 
     "@react-router/serve": ["@react-router/serve@8.3.0", "", { "dependencies": { "@react-router/express": "8.3.0", "@react-router/node": "8.3.0", "@remix-run/node-fetch-server": "^0.13.3", "compression": "^1.8.1", "express": "^5.2.1", "morgan": "^1.10.1", "source-map-support": "^0.5.21" }, "peerDependencies": { "react-router": "8.3.0" }, "bin": { "react-router-serve": "bin.cjs" } }, "sha512-ILFhPizuaNtQKfX1aLg6lr7r5FMZO/DgerUpGFhnK85t7M5c6ZNOb7VUURlJpu/ArUR2Sh+f5nBYTsgFt2R2OA=="],
 
@@ -458,6 +458,14 @@
     "@babel/helper-compilation-targets/semver": ["semver@6.3.1", "", { "bin": { "semver": "bin/semver.js" } }, "sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA=="],
 
     "@babel/helper-create-class-features-plugin/semver": ["semver@6.3.1", "", { "bin": { "semver": "bin/semver.js" } }, "sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA=="],
+
+    "@react-router/dev/@react-router/node": ["@react-router/node@8.3.0", "", { "dependencies": { "@remix-run/node-fetch-server": "^0.13.3" }, "peerDependencies": { "react-router": "8.3.0", "typescript": "^5.1.0 || ^6.0.0 || ^7.0.0" }, "optionalPeers": ["typescript"] }, "sha512-qw5ibcolE1OcwngiEw6t7LR11Hi6yWEDvj6cfvaYROX+w18JPxc0YSmsdn3Wlc9TOX+Qo8FVcxbXRdc9vojn2w=="],
+
+    "@react-router/express/@react-router/node": ["@react-router/node@8.3.0", "", { "dependencies": { "@remix-run/node-fetch-server": "^0.13.3" }, "peerDependencies": { "react-router": "8.3.0", "typescript": "^5.1.0 || ^6.0.0 || ^7.0.0" }, "optionalPeers": ["typescript"] }, "sha512-qw5ibcolE1OcwngiEw6t7LR11Hi6yWEDvj6cfvaYROX+w18JPxc0YSmsdn3Wlc9TOX+Qo8FVcxbXRdc9vojn2w=="],
+
+    "@react-router/node/@remix-run/node-fetch-server": ["@remix-run/node-fetch-server@0.14.1", "", {}, "sha512-pKenF5ysIN5lDCnCyvoUxDhKP0tfnGagvGbZh01xxHG6DJXSIXWVC9NpLSDGjxcxd1CKdCOKuZFleXBF3pChIg=="],
+
+    "@react-router/serve/@react-router/node": ["@react-router/node@8.3.0", "", { "dependencies": { "@remix-run/node-fetch-server": "^0.13.3" }, "peerDependencies": { "react-router": "8.3.0", "typescript": "^5.1.0 || ^6.0.0 || ^7.0.0" }, "optionalPeers": ["typescript"] }, "sha512-qw5ibcolE1OcwngiEw6t7LR11Hi6yWEDvj6cfvaYROX+w18JPxc0YSmsdn3Wlc9TOX+Qo8FVcxbXRdc9vojn2w=="],
 
     "@tailwindcss/node/lightningcss": ["lightningcss@1.32.0", "", { "dependencies": { "detect-libc": "^2.0.3" }, "optionalDependencies": { "lightningcss-android-arm64": "1.32.0", "lightningcss-darwin-arm64": "1.32.0", "lightningcss-darwin-x64": "1.32.0", "lightningcss-freebsd-x64": "1.32.0", "lightningcss-linux-arm-gnueabihf": "1.32.0", "lightningcss-linux-arm64-gnu": "1.32.0", "lightningcss-linux-arm64-musl": "1.32.0", "lightningcss-linux-x64-gnu": "1.32.0", "lightningcss-linux-x64-musl": "1.32.0", "lightningcss-win32-arm64-msvc": "1.32.0", "lightningcss-win32-x64-msvc": "1.32.0" } }, "sha512-NXYBzinNrblfraPGyrbPoD19C1h9lfI/1mzgWYvXUTe414Gz/X1FD2XBZSZM7rRTrMA8JL3OtAaGifrIKhQ5yQ=="],
 
